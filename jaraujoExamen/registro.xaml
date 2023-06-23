@@ -59,7 +59,7 @@
                     </Picker.Items>
                 </Picker>
                 <Entry Keyboard="Numeric" x:Name="txtMonto" Placeholder="Monto inicial" Grid.Row="3" Grid.Column="1"/>
-                <Entry x:Name="txtPago" Placeholder="Pago mensual" Grid.Row="4" Grid.Column="1"/>
+                <Entry x:Name="txtPago" Placeholder="Pago mensual" IsReadOnly="True" Grid.Row="4" Grid.Column="1"/>
 
 
             </Grid>
